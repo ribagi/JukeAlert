@@ -349,7 +349,7 @@ public class JukeAlertListener implements Listener {
 						notifyGroup(
 							snitch,
 							ChatColor.AQUA + " * " + playerName + " entered snitch at " + snitch.getName()
-							+ " [" + snitch.getX() + " " + snitch.getY() + " " + snitch.getZ() + "]");
+							+ " [" + snitch.getX() + " " + snitch.getY() + " " + snitch.getZ() + "]" + " in the " + snitch.getWorld());
 							
 	                    if (snitch.shouldLog()) {
 	                        plugin.getJaLogger().logSnitchEntry(snitch, location, player);
