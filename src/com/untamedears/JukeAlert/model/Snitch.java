@@ -39,6 +39,10 @@ public class Snitch implements QTBox, Comparable {
     public int getZ() {
         return location.getBlockZ();
     }
+    
+    public String getWorld(){
+		return location.getWorld().getName();
+	}
 
     // interface QTBox
     @Override
